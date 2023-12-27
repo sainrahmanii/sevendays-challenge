@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sevendays/screen/first_empty.dart';
+// import 'package:sevendays/screen/first_empty.dart';
+import 'package:sevendays/screen/first_rating.dart';
 // import 'package:sevendays/screen/first_signin.dart';
 // import 'package:sevendays/screen/splash_screen.dart';
 // import 'package:sevendays/screen/first_started.dart';
@@ -14,7 +15,7 @@ class SevenDays extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FirstEmpty(),
+      home: FirstRating(),
     );
   }
 }
