@@ -100,7 +100,7 @@ class FirstRandom extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.end,
                           children: [
                             Text(
-                              '\$800.00',
+                              '\$600.00',
                               style: GoogleFonts.poppins(
                                 color: const Color(0xff191919),
                                 fontWeight: FontWeight.w600,
@@ -118,7 +118,7 @@ class FirstRandom extends StatelessWidget {
                             ),
                             const SizedBox(height: 10),
                             Text(
-                              '\$880.00',
+                              '\$680.00',
                               style: GoogleFonts.poppins(
                                 color: const Color(0xff191919),
                                 fontWeight: FontWeight.w600,
